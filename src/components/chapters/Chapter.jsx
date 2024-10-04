@@ -28,8 +28,8 @@ function Chapter () {
 return (
 
 
-
 <article
+
 
 layout
 initial={{transform: "scale(0)"}}
@@ -39,31 +39,28 @@ transition={{type: "spring", damping: 6, stiffness: 100}}
 key={item.imgPath} className="card "
 
 >
+  <NavLink className="navlink" to={item.nav} >
 
 <img width={280} src={item.imgPath} alt="" />
 <div style={{width: "280px"}} className="box">   
 <h1 className="title">{item.projectTitle}</h1>
-<p className="sub-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum officiis
-   pariatur repellendus. Deserunt, corrupti facilis.</p>
+<p className="sub-title">{item.subTitle}</p>
 
 <div className="flex icons">
 
 <div style={{gap: "11px"}} className="flex">
-{/* 
-<a href="" className="icon-link"></a>
-<a href="" className="icon-github"></a> */}
 </div>
 
-<a href="" className="link flex">
-  more
-  {/* <span style={{alignSelf: "end"}} className="icon-arrow-right"></span> */}
-</a>
+  <NavLink to={item.nav} className="link flex"> more </NavLink>
+
+
 </div>
   
 </div>
 
-
+</NavLink>
 </article>
+
 );
 })}
 
