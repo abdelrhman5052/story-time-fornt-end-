@@ -1,0 +1,21 @@
+.intro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.image-intro{
+  max-width: 600px;
+}
+
+.image-intro img{
+  width: 80%;
+}
+
+.intro-text p{
+  font-size: 24px;
+
+}
+

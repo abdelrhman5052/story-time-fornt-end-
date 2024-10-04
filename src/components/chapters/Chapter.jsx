@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Chapter.css"
 import { myProjects } from './myProject';
+import NavWithout from '../navigation/NavWithout';
 
 
 
@@ -8,7 +9,13 @@ import { myProjects } from './myProject';
 function Chapter () {
   return (
 
+    <div>
+
+<NavWithout />
+
     <main className='flex'>
+
+{/* <NavWithout /> */}
 
         <section className="right-section flex">
 
@@ -61,6 +68,7 @@ key={item.imgPath} className="card "
 
 </section>
     </main>
+    </div>
   );
 }
 

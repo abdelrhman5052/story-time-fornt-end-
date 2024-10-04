@@ -1,13 +1,15 @@
 import React,{useState} from 'react';
 import "./navBar.css"
 import NavWithout from '../navigation/NavWithout';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
   return (
+    <div>
+          <NavWithout />
     <div className="background">
 
-          <NavWithout />
 
     <div className="landing">
       <div className="text">
@@ -22,6 +24,8 @@ function Navbar() {
         <button className='btn-5'>Let`s Begain your  </button>
       </div>
     </div>
+  </div>
+
   </div>
   );
 }

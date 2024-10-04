@@ -1,10 +1,10 @@
 import React from 'react';
 import "./navigation.css";
-
-function NavWithout  () {
+import { NavLink } from 'react-router-dom';
+function NavWithout () {
   return (
     <div>
-    <div id="overlay"></div>
+    {/* <div id="overlay"></div> */}
 
     <div className="header">
 
@@ -12,11 +12,10 @@ function NavWithout  () {
       <div className="nav">
 
         <ul>
-          <li><a href="#" className="active">HOME</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <NavLink className="li" to="/">HOME </NavLink>
+          <NavLink className="li" to="/card">SERVICES </NavLink>
+          <NavLink className="li" to="/Intro">About </NavLink>
+          <NavLink className="li" to="#">CONTACT </NavLink>
         </ul>
 
       </div>
