@@ -7,6 +7,7 @@ import { myProjects } from './myProject';
 
 function Chapter () {
   return (
+
     <main className='flex'>
 
         <section className="right-section flex">
