@@ -3,6 +3,7 @@
   background-size: cover;
   min-height: 100vh;
   position: relative;
+  margin-bottom: 30px;
 }
 
 #overlay {
@@ -103,4 +104,25 @@
   line-height: 1.5;
   font-weight: 600;
   color: #c3c4bc;
+}
+
+
+.btn-5 {
+  margin-top: 170px;
+  padding:15px;
+  border-radius: 17px;
+  color: white;
+  background-color: #0a941f;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 50px;
+  transition: 0.3s;
+}
+
+.btn-5:hover {
+  color:#0a941f;
+  background-color: rgb(236, 234, 234);
 }

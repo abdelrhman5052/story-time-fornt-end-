@@ -32,6 +32,8 @@ function Navbar() {
           Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem.
           Mauris blandit aliquet elit, eget tincidunt.
         </p>
+
+        <button className='btn-5'>Let`s Begain your  </button>
       </div>
     </div>
   </div>

@@ -1,0 +1,109 @@
+.flex {
+  display : flex;
+  align-items: center;
+}
+
+.main.flex {
+  /* gap: 3rem; */
+  align-items: start;
+}
+/* right section ==> card */
+
+main section.right-section.flex{
+  /* flex-grow: 1; */
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.card img {
+  border-radius: 3px;
+}
+
+.card {
+  border: 1px solid rgba(32, 32, 33, 0.3);
+  transition: 0.4s;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-bottom: 15px; */
+}
+
+.card:hover {
+  border: 1px solid rgb(71, 160, 71);
+  transform: scale(1.03);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05),rgba(255, 255, 255, 0.05));
+}
+
+/* .light .card:hover , .light .card {
+  
+border: 1px solid rgb(78, 80, 80);
+} */
+
+.card .box {
+  padding: 1rem 0.4rem;
+}
+
+.card .box .title{
+  color: var(--title);
+
+}
+
+.card .box .sub-title {
+  color: var(--subtitle);
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+  font-size: 0.8rem;
+}
+
+/* .card .box .icons {
+  justify-content: space-between;
+} */
+
+/* .card .box .icons .icon-github ,
+.card .box .icons .icon-link  {
+  font-size: 1.2rem;
+  color: var(--subtitle);
+  transition: 0.3s;
+} */
+
+/* .card .box .icons .icon-github:hover ,
+.card .box .icons .icon-link:hover  {
+  color: var(--icon-hover);
+  transform: scale(1.1);
+  cursor: pointer;
+} */
+
+.card .box .icons a.link {
+font-size: 0.9rem;
+color: green;
+margin-right: 12px;
+text-decoration: none;
+
+}
+
+
+@media (max-width:600px) {
+  main.flex {
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    main section.left-section.flex {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    main section.left-section.flex button {
+
+      width: 8rem;
+      padding: 0.8rem 0;
+
+      font-size: 0.9rem;
+
+    }
+    
+
+}
