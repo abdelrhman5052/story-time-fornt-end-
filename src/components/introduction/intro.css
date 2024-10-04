@@ -1,9 +1,22 @@
+body {
+  background-color: rgb(235, 232, 227);
+}
+
 .intro{
   display: flex;
   justify-content: space-between;
   align-items: center;
   justify-content: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 10px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid white;
+  background-color: white;
 
+  height: 500px;
 }
 
 .image-intro{
@@ -16,6 +29,56 @@
 
 .intro-text p{
   font-size: 24px;
-
+  font-size: 16px;
+  line-height: 44px;
+  letter-spacing: 1px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
+.btn-4 {
+  position: absolute;
+  top: 500px;
+  left: 1050px;
+  padding:15px;
+  border-radius: 17px;
+  color: white;
+  background-color: #0a941f;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 50px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn-4:hover {
+  color:#0a941f;
+  background-color: rgb(236, 234, 234);
+}
+
+.btn-2 {
+  position: absolute;
+  top: 500px;
+  right: 1150px;
+  padding:15px;
+  border-radius: 17px;
+  color: white;
+  background-color: #0a941f;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 50px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn-2:hover {
+  color:#0a941f;
+  background-color: rgb(236, 234, 234);
+}

@@ -1,6 +1,7 @@
 .flex {
   display : flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .main.flex {
@@ -12,7 +13,8 @@
 main section.right-section.flex{
   /* flex-grow: 1; */
   flex-wrap: wrap;
-  gap: 25px;
+  row-gap: 20px;
+  column-gap: 60px;
   justify-content: center;
 }
 
@@ -106,4 +108,28 @@ text-decoration: none;
     }
     
 
+}
+
+
+.btn-3 {
+  position: absolute;
+  top: 70px;
+  right: 1170px;
+  padding:15px;
+  border-radius: 17px;
+  color: white;
+  background-color: #0a941f;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 50px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn-3:hover {
+  color:white;
+  background-color: rgb(0, 0, 0);
 }

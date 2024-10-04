@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
 import "./navBar.css"
 import NavWithout from '../navigation/NavWithout';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import Footer from '../footer/footer';
 
 function Navbar() {
 
@@ -21,10 +22,12 @@ function Navbar() {
           Mauris blandit aliquet elit, eget tincidunt.
         </p>
 
-        <button className='btn-5'>Let`s Begain your  </button>
+        <NavLink className='btn-5' to="/Intro">Let`s Begain your </NavLink>
       </div>
     </div>
   </div>
+
+      <Footer />
 
   </div>
   );

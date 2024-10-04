@@ -3,7 +3,9 @@
   background-size: cover;
   min-height: 100vh;
   position: relative;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 5;
 }
 
 #overlay {
@@ -15,9 +17,6 @@
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
-
-
 
 
 
@@ -70,6 +69,7 @@
   font-weight: 600;
   margin-left: 50px;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .btn-5:hover {

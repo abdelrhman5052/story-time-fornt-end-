@@ -2,6 +2,8 @@ import React from 'react';
 import "./Chapter.css"
 import { myProjects } from './myProject';
 import NavWithout from '../navigation/NavWithout';
+import { NavLink } from 'react-router-dom';
+import Footer from '../footer/footer';
 
 
 
@@ -38,8 +40,8 @@ key={item.imgPath} className="card "
 
 >
 
-<img width={380} src={item.imgPath} alt="" />
-<div style={{width: "380px"}} className="box">   
+<img width={280} src={item.imgPath} alt="" />
+<div style={{width: "280px"}} className="box">   
 <h1 className="title">{item.projectTitle}</h1>
 <p className="sub-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum officiis
    pariatur repellendus. Deserunt, corrupti facilis.</p>
@@ -68,6 +70,9 @@ key={item.imgPath} className="card "
 
 </section>
     </main>
+    <NavLink className="btn-3" to="/Intro">Back</NavLink>
+    
+    <Footer />
     </div>
   );
 }

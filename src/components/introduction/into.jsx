@@ -1,6 +1,8 @@
 import React from 'react';
 import './intro.css';
 import NavWithout from '../navigation/NavWithout';
+import { NavLink } from 'react-router-dom';
+import Footer from '../footer/footer';
 
 const Intro = () => {
   return (
@@ -23,6 +25,10 @@ const Intro = () => {
           </p>
       </div>
     </div>
+    <NavLink className="btn-4" to="/card">Next To Trip</NavLink>
+    <NavLink className="btn-2" to="/">Back</NavLink>
+
+    <Footer />
     </div>
   );
 }
