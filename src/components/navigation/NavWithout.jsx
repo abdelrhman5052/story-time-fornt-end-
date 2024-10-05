@@ -8,14 +8,14 @@ function NavWithout () {
 
     <div className="header">
 
-      <div className="logo">traveiya</div>
+      <div><h1 className='logo'>NaSA App</h1></div>
       <div className="nav">
 
         <ul>
           <NavLink className="li" to="/">HOME </NavLink>
-          <NavLink className="li" to="/card">SERVICES </NavLink>
-          <NavLink className="li" to="/Intro">About </NavLink>
-          <NavLink className="li" to="#">CONTACT </NavLink>
+          <NavLink className="li" to="/Intro">INTRO </NavLink>
+          <NavLink className="li" to="/card">About </NavLink>
+          {/* <NavLink className="li" to="#">CONTACT </NavLink> */}
         </ul>
 
       </div>

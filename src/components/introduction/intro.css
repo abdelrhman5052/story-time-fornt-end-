@@ -44,7 +44,7 @@ body {
   padding:15px;
   border-radius: 17px;
   color: white;
-  background-color: #0a941f;
+  background-color: #051084;
   outline: none;
   border: none;
   cursor: pointer;
@@ -56,7 +56,7 @@ body {
 }
 
 .btn-4:hover {
-  color:#0a941f;
+  color:red;
   background-color: rgb(236, 234, 234);
 }
 
@@ -67,7 +67,8 @@ body {
   padding:15px;
   border-radius: 17px;
   color: white;
-  background-color: #0a941f;
+  background-color: #051084;
+ 
   outline: none;
   border: none;
   cursor: pointer;
@@ -79,6 +80,6 @@ body {
 }
 
 .btn-2:hover {
-  color:#0a941f;
+  color:red;
   background-color: rgb(236, 234, 234);
 }

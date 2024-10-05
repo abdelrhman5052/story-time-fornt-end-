@@ -14,15 +14,14 @@ function Navbar() {
 
     <div className="landing">
       <div className="text">
-        <h1>Explore the world with a smile</h1>
+        <h1>A Climate Journey: Telling the Story of Our 
+        Changing Planet</h1>
         <p>
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-          Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-          Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem.
-          Mauris blandit aliquet elit, eget tincidunt.
+        Welcome to the Tour: The Moment We Stand In
+
         </p>
 
-        <NavLink className='btn-5' to="/Intro">Let`s Begain your </NavLink>
+        <NavLink className='btn-5' to="/Intro">Start The Journey </NavLink>
       </div>
     </div>
   </div>

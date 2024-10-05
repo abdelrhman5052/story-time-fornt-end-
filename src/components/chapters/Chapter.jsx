@@ -31,6 +31,7 @@ return (
 <article
 
 
+
 layout
 initial={{transform: "scale(0)"}}
 animate={{transform: "scale(1)"}}
@@ -41,7 +42,7 @@ key={item.imgPath} className="card "
 >
   <NavLink className="navlink" to={item.nav} >
 
-<img width={280} src={item.imgPath} alt="" />
+<img width={280} height={200} src={item.imgPath} alt="" />
 <div style={{width: "280px"}} className="box">   
 <h1 className="title">{item.projectTitle}</h1>
 <p className="sub-title">{item.subTitle}</p>
