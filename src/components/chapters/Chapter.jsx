@@ -17,7 +17,7 @@ function Chapter () {
 
     <main className='flex'>
 
-{/* <NavWithout /> */}
+
 
         <section className="right-section flex">
 
@@ -63,7 +63,7 @@ key={item.imgPath} className="card "
 </article>
 
 );
-})}
+})} 
 
 
 </section>
